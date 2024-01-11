@@ -71,7 +71,7 @@ export default function About() {
               </p>
               <p>
                 I have always been fascinated by computers at a young age and have
-                wanted to learn all about them. That's why as soon as I was able to get a job
+                wanted to learn all about them. That is why as soon as I was able to get a job
                 I choose to work at Micro-Center (a computer and electronics store). 
                 There I learned all about how to disassemble and assemble computers but
                 I wanted to learn how to design a computer and what was actually inside them
