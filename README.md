@@ -1,193 +1,34 @@
-# Portfolio one page template - ARCHIVED
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Flat and responsive website template, designed and coded by [Maxim Orlov](https://github.com/orlovmax).
+## Getting Started
 
-Demo: [http://website-templates.github.io/portfolio_one-page-template](http://website-templates.github.io/portfolio_one-page-template/)
+First, run the development server:
 
-![Mockup demo](screenshots/pic.jpg)
-Product mockup created with [http://magicmockups.com/](http://magicmockups.com/)
-
-## Contents
-
-- [Folder and file structure](#folder-and-file-structure)
-- [Requirements:](#requirements)
-    - [Editorconfig](#editorconfig)
-- [How to start](#how-to-start)
-- [Site configuration](#site-configuration)
-- [Tasks](#tasks)
-    - [Cleanup](#cleanup)
-    - [Dev](#dev)
-    - [Build](#build)
-    - [Rebuild](#rebuild)
-    - [Server](#server)
-    - [Sprite](#sprite)
-- [Live reload](#live-reload)
-- [License](#license)
-
-## Folder and file structure
-
-```
-./
-├── .editorconfig
-├── gulpfile.js
-├── package.json
-├── README.md
-|
-├── gulp_tasks/                                * gulp tasks
-|   ├── config/                                * gulp tasks config
-│   |   ├── paths.js
-│   |   └── aliases.js
-│   |
-|   └── task.js
-|
-├── screenshots/                               * responsive test screenshots
-|
-├── dev/                                       * site source
-│   ├── images/                                * image sources
-|   │
-│   ├── pug/                                   * templates
-|   |   ├── blocks/                            * blocks library
-|   │   |   └── block.pug
-|   │   ├── helpers/                           * helper mixins
-|   │   ├── vendor/                            * third-party code
-|   │   ├── layouts/                           * page layouts
-|   │   └── pages/                             * main pages templates
-|   │
-│   ├── js/                                    * source js
-|   |   ├── vendor/                            * vendor scripts library
-|   |   ├── lib/                               * site scripts library
-|   │   ├── head.js                            * head scripts
-|   │   └── body.js                            * body scripts
-|   │
-|   ├── sass/                                  * sass preprocessor styles
-|   |   ├── blocks/                            * blocks library
-|   │   |   └── block.sass
-|   │   ├── helpers/                           * mixins and vars
-|   │   ├── vendor/                            * third-party code
-|   │   ├── custom.sass
-|   │   ├── noscript.sass
-|   │   └── screen.sass
-|   │
-│   ├── helpers/                               * helper files
-|   |   ├── favicon.ico
-|   |   └── .htaccess
-|   │
-│   ├── fonts/                                 * font sources
-|   │
-│   └── data/                                  * configs and data for templates
-│
-└── build/                                     * built source
-    ├── index.html
-    ├── page.html
-    |
-    └── static/                                * static assets
-        ├── css/                               * minified styles
-        |
-        ├── images/                            * minified images
-        │
-        ├── js/                                * minified assembled js
-        |
-        └── fonts/                             * @font-face-ready webfonts
-
+```bash
+npm run dev
+# or
+yarn dev
 ```
 
-## Requirements
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- [Node.js](http://nodejs.org/)
-- Build sytem: [Grunt](http://gruntjs.com/) or [Gulp](http://gulpjs.com/)
-- Optionally:
-  * [Editorconfig](http://editorconfig.org/)
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-#### Editorconfig
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-This project has an .editorconfig file at the root. It describes indent style, trailing whitespaces etc. See more details [here](http://editorconfig.org/)
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## How to start
+## Learn More
 
-If you haven't used [Gulp](http://gulpjs.com/) before, be sure to check out the [Getting Started]([https://github.com/gulpjs/gulp/blob/master/docs/README.md](https://gulpjs.com/docs/en/getting-started/quick-start)) guide, also check these [recips](https://github.com/gulpjs/gulp/tree/master/docs/recipes#recipes)
+To learn more about Next.js, take a look at the following resources:
 
-Before start you need to have installed _npm_ , as well as _gulp_ globally.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-**A few simple steps to start:**
-* Install dependencies from `package.json` by running: `npm install`.
-* Run tasks from the list below and start devevelopment!
-* Edit general settings in `dev/data/config.json` See [Site configuration](#site-configuration) section
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Site configuration
+## Deploy on Vercel
 
-This boilerplate uses Pug templates with external data configs.
-Main settings can be found in `dev/data/config.json` file. And they're available for usage in templates with `config.key-name`
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## Tasks
-
-Here comes groups ofgulp tasks with some explanations
-
-#### Cleanup
-
-Remove placeholders from work directories.
-Gulp: `gulp cleanup`
-
-* Remove gitkeep files
-
-#### Dev
-
-Dev task with static server.
-Gulp: `gulp dev`
-
-* Bundle javascripts
-* Compile Sass stylesheets
-* Add vendor prefixes in css
-* Combine media queries in css files
-* Compile Pug templates
-* Sync helpers and other assets
-* Sync fonts
-* Sync images
-* Run BrowserSync static server with live reload using
-* Watch for changes and run dev task
-
-
-#### Build
-
-Build task.
-Gulp: `gulp build`
-
-* Minify images
-* Minify javascript files
-* Minify stylesheets
-* Minify html
-* Run BrowserSync static server
-
-
-#### Rebuild
-
-Regenerate and build project by running all tasks.
-Gulp: `gulp rebuild`
-
-* Bundle javascripts
-* Compile Sass stylesheets
-* Add vendor prefixes in css
-* Combine media queries in css files
-* Compile Pug templates
-* Sync helpers and other assets
-* Sync fonts
-* Sync images
-* Minify images
-* Minify javascript files
-* Minify stylesheets
-* Minify html
-
-
-#### Server
-
-Run server without watching for changes.
-Gulp: `gulp server`
-
-* Run BrowserSync static server
-
-
-## Live reload
-
-This project uses BrowserSync as static server with enabled and configured live reload option.
-
-## License
-[MIT](https://github.com/website-templates/portfolio_one-page-template/blob/master/LICENSE.md)
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
