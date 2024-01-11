@@ -276,31 +276,29 @@ export default function Home({ articles }) {
   return (
     <>
       <Head>
-        <title>Victoria Jordan - Leader, artist, and frontend enthusiast</title>
+        <title>Saj Patel - Welcome to sajpatel.com!</title>
         <meta
           name="description"
-          content="I'm Victoria Jordan. A leader, artist, and frontend enthusiast"
+          content="I'm Saj Patel. Welcome to sajpatel.com"
         />
       </Head>
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Leader, artist, and frontend enthusiast in Austin, TX.
+            Welcome to sajpatel.com!
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I&apos;m Victoria, a computer science student and the Founder and
-            President of Girls Who Code at Texas State University. I am
-            passionate about frontend engineering, empowering women in tech, and
-            creating inclusive spaces for beginners in computer science.
+            I&apos;m Saj, a computer engineering student at the University of Illinois Urbana-Champaign. I am
+            passionate in just about all things computer and always helping the local community.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="https://github.com/vjordan-cs"
+              href="https://github.com/babypatel"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://linkedin.com/in/victoria-jordan01/"
+              href="https://www.linkedin.com/in/saj-patel-892163235/"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
