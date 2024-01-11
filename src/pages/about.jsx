@@ -44,7 +44,7 @@ export default function About() {
         <title>About - Saj Patel </title>
         <meta
           name="description"
-          content="I'm Saj Patel. An undergrad majoring in Computer Engineering at the University of Illinois Urbana-Champaign."
+          content="Hi I'm Saj, an aspiring Computer Engineer!"
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -61,34 +61,31 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I&apos;m Saj An undergrad majoring in Computer Engineering at the University of Illinois Urbana-Champaign.
+             Hi, I&apos;m Saj, an aspiring Computer Engineer!
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                I&apos;m a non-traditional first-generation student pursuing a
-                Bachelor of Science in Computer Science. I&apos;m entering my
-                senior year at Texas State University and I am the founder and
-                president of Girls Who Code TXST. My mission is to empower women
-                and non-binary students to take the reins of their independence
-                and become the leaders they have always admired.
+                I&apos;m currently pursuing a degree in Computer Engineering at the 
+                University of Illinois Urbana-Champaign. I will be entering my second semester as a freshman
+                and am extremely excited about the opportunities and experiences it will bring!
               </p>
               <p>
-                I&apos;ve traveled extensively through Southeast Asia and lived
-                in Shanghai, China for a year while teaching English. In 2020, I
-                launched an e-commerce store selling stickers and prints of my
-                artwork to generate donations for various organizations
-                supporting Black and transgender communities.
+                I have always been fascinated by computers at a young age and have
+                wanted to learn all about them. That's why as soon as I was able to get a job
+                I choose to work at Micro-Center (a computer and electronics store). 
+                There I learned all about how to disassemble and assemble computers but
+                I wanted to learn how to design a computer and what was actually inside them
+                which then led me to pursue a major in Computer Engineering.
+                
               </p>
               <p>
-                This past summer, I was a frontend engineer intern at a startup
-                called F*** You Pay Me, creating an app to help influencers (a
-                female-majority community) gain pay equality and fair treatment
-                when making deals with brands.
+                I also had an internship at Code-Ninjas during my senior year of high school where
+                I would teach kids the basics of coding and robotics.
               </p>
               <p>
-                In my free time, you can find me rock climbing, working out,
-                dancing, or at home spending quality time with my two
-                cockatiels.
+                In my free time, you can find me building keyboards, playing video games,
+                going off-roading, or at home spending quality time with my family.
+                
               </p>
             </div>
           </div>
@@ -101,25 +98,25 @@ export default function About() {
                 Follow on Instagram
               </SocialLink> */}
               <SocialLink
-                href="https://github.com/vjordan-cs"
+                href="https://github.com/babypatel"
                 icon={GitHubIcon}
                 className="mt-4"
               >
                 Follow on GitHub
               </SocialLink>
               <SocialLink
-                href="https://linkedin.com/in/victoria-jordan01/"
+                href="https://www.linkedin.com/in/saj-patel-892163235/"
                 icon={LinkedInIcon}
                 className="mt-4"
               >
                 Follow on LinkedIn
               </SocialLink>
               <SocialLink
-                href="mailto:vjordan.cs@gmail.com"
+                href="mailto:saj07188@gmail.com"
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                vjordan.cs@gmail.com
+                saj07188@gmail.com
               </SocialLink>
             </ul>
           </div>
