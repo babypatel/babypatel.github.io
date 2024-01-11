@@ -44,7 +44,7 @@ export default function About() {
         <title>About - Saj Patel </title>
         <meta
           name="description"
-          content="I'm Victoria Jordan. A leader, artist, and frontend enthusiast in Austin, TX."
+          content="I'm Saj Patel. An undergrad majoring in Computer Engineering at the University of Illinois Urbana-Champaign."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -61,8 +61,7 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I&apos;m Victoria. A leader, artist, and frontend enthusiast in
-              Austin, TX.
+              I&apos;m Saj An undergrad majoring in Computer Engineering at the University of Illinois Urbana-Champaign.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
