@@ -41,7 +41,7 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About - Victoria Jordan</title>
+        <title>About - Saj Patel </title>
         <meta
           name="description"
           content="I'm Victoria Jordan. A leader, artist, and frontend enthusiast in Austin, TX."
