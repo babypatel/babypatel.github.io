@@ -1,13 +1,21 @@
-const path = require("path");
-const withSass = require("@zeit/next-sass");
-
-module.exports = withSass({
-  cssModules: true,
-});
-
 module.exports = {
-  /* Adicione sua pasta padrão de SCSS aqui! */
-  sassOptions: {
-    includePaths: [path.join(__dirname, "styles")],
-  },
+  reactStrictMode: true,
+  webpack5: true,
+  webpack: (config) => {
+    config.module.rules.unshift({
+      test: /pdf\.worker\.(min\.)?js/,
+      use: [
+        {
+          loader: "file-loader",
+          options: {
+            name: "[contenthash].[ext]",
+            publicPath: "_next/static/worker",
+            outputPath: "static/worker"
+          }
+        }
+      ]
+    });
+
+    return config;
+  }
 };
