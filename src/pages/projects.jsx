@@ -21,31 +21,21 @@ const projects = [
     logo: youphoria,
   },
   {
-    name: 'Tailwind Animation Exploration',
+    name: 'Skills USA Project Traffic Light',
     description:
-      'Leveraging Tailwind CSS, this captivating one-page project showcases mesmerizing animations and innovative blend modes for striking color and movement',
+      'Our senior year project in high school was to address the problem with yellow light accidents by creating a new traffic light with a displayed timer to let the driver make more informed decisions while driving. After competing in Skills USA we took 3rd in state with over 40 teams competing.',
     link: {
-      href: 'https://tailwind-animation-exploration.vercel.app/',
-      label: 'tailwind-animation-exploration.vercel.app/',
+      href: 'https://twitter.com/Bpalmerin_/status/1648497441111699459/photo/1',
+      label: 'DGS Engineering Twitter',
     },
     logo: orb,
   },
   {
-    name: 'Girls Who Code TXST',
+    name: 'This Website!',
     description:
-      "I've created the entire structure of our Girls Who Code chapter, including our website! It utilizes Stripe's API to accept donations that fund our events and activities.",
-    link: { href: 'http://gwc-txst.com', label: 'gwc-txst.com' },
+      "This website was made using a basic next.js template and then adding some pictures and icons to make it look better! - here's my GitHub with all the website info.",
+    link: { href: 'https://github.com/babypatel/babypatel.github.io', label: 'Github' },
     logo: logoHeart,
-  },
-  {
-    name: 'Java vs. C++',
-    description:
-      'Creating an ad-free website that highlights the syntax differences between Java and C++ to benefit the curriculum of my Object Oriented Programming class.',
-    link: {
-      href: 'https://cpp-vs-java.vercel.app/',
-      label: 'cpp-vs-java.vercel.app',
-    },
-    logo: logoAnimaginary,
   },
   // {
   //   name: 'OpenShuttle',
