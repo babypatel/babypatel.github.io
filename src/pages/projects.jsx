@@ -4,19 +4,19 @@ import Head from 'next/head'
 import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import logoAnimaginary from '@/images/logos/animaginary.svg'
-import youphoria from '@/images/logos/YOUphoria.png'
+import youphoria from '@/images/logos/nicehash.png'
 import orb from '@/images/logos/orb.gif'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoHeart from '@/images/logos/gwc.png'
 
 const projects = [
   {
-    name: 'YOUphoria: A comprehensive sex education app for teens',
+    name: 'The Crypto Miner',
     description:
-      "YOUphoria is built with Flutter and Firebase Authentication for seamless user experience and secure data handling. Google Maps API provides location-based resources, and ChatGPT API is leveraged to create an inclusive, age-appropriate AI chatbot, addressing teens' nuanced questions with personalized responses.",
+      "I and a couple of my friends decided to build a dedicated crypto miner from scratch. At its peak, it functioned with 3 NVIDIA 3060ti's and a 2060 Super generating about 5-10 dollars of bitcoin a day while also destroying our living room",
     link: {
-      href: 'https://github.com/halcyonCore/youphoria',
-      label: 'GitHub',
+      href: 'https://drive.google.com/drive/folders/1oe8adFUW_iE_OL-0jsAYCxvmkF0F3Zaj?usp=drive_link',
+      label: 'Google Drive',
     },
     logo: youphoria,
   },
@@ -71,15 +71,15 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Victoria Jordan</title>
+        <title>Projects - Saj Patel</title>
         <meta
           name="description"
           content="Things I’ve made trying to put my dent in the universe."
         />
       </Head>
       <SimpleLayout
-        title="A couple of my favorite personal projects."
-        intro="This summer, I learned about the trifecta that is React, Next.js, and TailwindCSS. I haven't looked back since!"
+        title="A couple of my projects and experiences."
+        intro=" I have some programming experience in C, Java, JavaScript, and Assembly as well as some web dev experience!"
       >
         <ul
           role="list"
