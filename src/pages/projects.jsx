@@ -68,7 +68,7 @@ export default function Projects() {
         />
       </Head>
       <SimpleLayout
-        title="A couple of my projects and experiences."
+        title="A couple of my projects so far - more are soon to come!."
         intro=" I have some programming experience in C, Java, JavaScript, and Assembly as well as some web dev experience!"
       >
         <ul
