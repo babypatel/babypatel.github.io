@@ -169,27 +169,6 @@ function Resume() {
       start: 'Aug 2019',
       end: 'May 2023',
     },
-    {
-      company: 'UIUC Comp E',
-      title: 'Front End Engineer Intern',
-      logo: logoFYPM,
-      start: 'Aug 2023',
-      end: 'Present',
-    },
-    {
-      company: 'Dell Technologies',
-      title: 'Software Engineer Intern',
-      logo: logoDell,
-      start: 'June 2022',
-      end: 'Aug 2022',
-    },
-    {
-      company: 'Downers Grove South',
-      title: 'High School Graduate',
-      logo: logoDell,
-      start: 'Aug 2019',
-      end: 'May 2023',
-    },
   ]
 
   return (
