@@ -5,9 +5,9 @@ import { Card } from '@/components/Card'
 import { SimpleLayout } from '@/components/SimpleLayout'
 import logoAnimaginary from '@/images/logos/animaginary.svg'
 import youphoria from '@/images/logos/nicehash.png'
-import orb from '@/images/logos/orb.gif'
+import orb from '@/images/logos/skillsusa.png'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoHeart from '@/images/logos/gwc.png'
+import logoHeart from '@/images/logos/github.png'
 
 const projects = [
   {
