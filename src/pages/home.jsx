@@ -282,16 +282,12 @@ export default function Home({ articles }) {
               icon={LinkedInIcon}
             />
 
-            {/* <SocialLink
-              href="https://www.instagram.com/vjordan.cs/"
+             <SocialLink
+              href="https://www.instagram.com/sajpat3l/"
               aria-label="Follow on Instagram"
               icon={InstagramIcon}
-            /> */}
-            {/* <SocialLink
-              href="https://twitter.com/cs__victoria"
-              aria-label="Follow on Twitter"
-              icon={TwitterIcon}
-            /> */}
+            />
+           
           </div>
         </div>
       </Container>
