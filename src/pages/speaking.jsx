@@ -52,7 +52,7 @@ export default function Speaking() {
               href="https://habitatillinois.org/"
               title="Habitat for Humanity"
               description="I would volunteer to help build homes to support the foundations message of eliminating substandard housing through construction."
-              event="Community Service - Volunteer - 20 hours
+              event="Community Service - Volunteer - 20 hours"
               cta=""
             />
             <Appearance
