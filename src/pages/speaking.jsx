@@ -45,14 +45,14 @@ export default function Speaking() {
               href="https://em5flyhigh.org/"
               title="EM5 Fly High Foundation"
               description="The EM5 Fly Foundation was created to honor the short life and big heart of 15-year-old Evan Melau. They have donated more than 20k to the community in the form of giving Christmas gifts to the less fortunate and covering sports equipment fees."
-              event="Community Service - Volunteer - 40+ hours"
+              event="Community Service - Volunteer - 40 hours"
               cta=""
             />
             <Appearance
               href="https://habitatillinois.org/"
               title="Habitat for Humanity"
               description="I would volunteer to help build homes to support the foundations message of eliminating substandard housing through construction."
-              event="Community Service - Volunteer - 20+ hours
+              event="Community Service - Volunteer - 20 hours
               cta=""
             />
             <Appearance
@@ -66,7 +66,7 @@ export default function Speaking() {
               href="https://wyse.engineering.illinois.edu/summer-camps/electrical-engineering/"
               title="UIUC ECE Summer Camp"
               description="Virtual Summer Camp during COVID where I learned what ECE majors do and some of the basic topics of both Electrical and Computer Engineering"
-              event="Extracurricular - 35+ hours"
+              event="Extracurricular - 35 hours"
               cta=""
             />
           </SpeakingSection>
