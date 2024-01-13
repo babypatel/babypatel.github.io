@@ -36,38 +36,38 @@ export default function Speaking() {
         />
       </Head>
       <SimpleLayout
-        title="Community Service/Extracurriculars"
+        title="Community Service and Extracurriculars"
         intro="Here is a list of my community service involvements and some of my current and past extracurriculars."
       >
         <div className="space-y-20">
-          <SpeakingSection title="Texas State University">
+          <SpeakingSection title="Involvements -">
             <Appearance
-              href=""
-              title="Life as a First-Gen and Non-Traditional Student"
-              description="My journey navigating young adulthood, finding the way back to academia, and discovering a passion for leadership along the way."
-              event="TSU Common Experience"
-              cta="November 15th, 2022"
+              href="https://em5flyhigh.org/"
+              title="EM5 Fly High Foundation"
+              description="The EM5 Fly Foundation was created to honor the short life and big heart of 15-year-old Evan Melau. They have donated more than 20k to the community in the form of giving Christmas gifts to the less fortunate and covering sports equipment fees."
+              event="Community Service - Volunteer - 40+ hours"
+              cta=""
             />
             <Appearance
-              href=""
-              title="(Re)visiting First Generation Students Experiences in STEM Panelist"
-              description="A discussion on attending a Hispanic Serving Intitution, the significance of our cultural backgrounds, and how it relates to our experiences in the classroom."
-              event="TSU Professional Development Series"
-              cta="November 10th, 2022"
+              href="https://habitatillinois.org/"
+              title="Habitat for Humanity"
+              description="I would volunteer to help build homes to support the foundations message of eliminating substandard housing through construction."
+              event="Community Service - Volunteer - 20+ hours
+              cta=""
             />
             <Appearance
-              href=""
-              title="Counter-Life Herstories Conference Guest Speaker"
-              description="Event with nearly 500 K-12 students, illuminating hidden truths about women and girls of color in STEM+C professions."
-              event="TSU Conference"
-              cta="November 8th, 2022"
+              href="https://saturdaymorningphysics.fnal.gov/"
+              title="Fermilab Saturday Morning Physics"
+              description="Every Saturday morning for 11 weeks Fermilab would host a meeting for high schoolers aimed to further their understanding of physics and display and explain their current research."
+              event="Extracurricular - Member"
+              cta=""
             />
             <Appearance
-              href=""
-              title="Cohost for The Future of Technology is Human with Dr. Deb Donig"
-              description="The vision of a better world is at the heart of technological innovation. How can we take back a vision of technological production so that it more truly and equitably aligns with human values?"
-              event="TSU Common Experience"
-              cta="October 26th, 2022"
+              href="https://wyse.engineering.illinois.edu/summer-camps/electrical-engineering/"
+              title="UIUC ECE Summer Camp"
+              description="Virtual Summer Camp during COVID where I learned what ECE majors do and some of the basic topics of both Electrical and Computer Engineering"
+              event="Extracurricular - 35+ hours"
+              cta=""
             />
           </SpeakingSection>
           {/* <SpeakingSection title="Podcasts">
