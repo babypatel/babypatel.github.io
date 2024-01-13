@@ -29,14 +29,14 @@ export default function Speaking() {
   return (
     <>
       <Head>
-        <title>Speaking - Victoria Jordan</title>
+        <title>Community Service/EC's - Saj Patel</title>
         <meta
           name="description"
-          content="If you are looking for your next guest speaker, I'm your girl!"
+          content="Here is a list of my community service involvements and some of my past and current extracurriculars. "
         />
       </Head>
       <SimpleLayout
-        title="I love to share the joy of STEM+C"
+        title="Community Service/Extracurriculars"
         intro="If you are looking for your next guest speaker, I'm your girl! I am passionate about women in STEM+C, living life for the adventure, and navigating college as a non-traditional student."
       >
         <div className="space-y-20">
