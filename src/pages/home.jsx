@@ -23,6 +23,7 @@ import logoGWC from '@/images/logos/dgs.png'
 import logoTXST from '@/images/logos/codeninjas.png'
 import halcyoncore from '@/images/logos/microcenter.png'
 import amazonIcon from '@/images/logos/uiuc.png'
+import McCarthy from '@/images/logos/mccarthy.png'
 
 import { generateRssFeed } from '@/lib/generateRssFeed'
 import { getAllArticles } from '@/lib/getAllArticles'
@@ -142,10 +143,10 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'UIUC ECE',
-      title: 'Computer Engineering Student',
-      logo: amazonIcon,
-      start: 'Aug 2023',
+      company: 'McCarthy Construction',
+      title: 'Self Perform Electric Intern',
+      logo: McCarthy,
+      start: 'May 2024',
       end: 'Present',
     },
     {
@@ -161,6 +162,13 @@ function Resume() {
       logo: logoTXST,
       start: 'October 2022',
       end: 'March 2023',
+    },
+    {
+      company: 'UIUC ECE',
+      title: 'Computer Engineering Student',
+      logo: amazonIcon,
+      start: 'Aug 2023',
+      end: 'Present',
     },
     {
       company: 'Downers Grove South High School',
